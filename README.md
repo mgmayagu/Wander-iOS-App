@@ -68,7 +68,7 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="wireframe." width=600>
+<img src="wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
