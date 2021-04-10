@@ -42,33 +42,72 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login/register Screen 
+   * User can choose to login or register for a new account
+* Register Screen
+   * User can create a new account
+   * User fills in basic information
+   * User fills in form about interest and activities they prefer
+* Home Profile Screen
+    * User can read about activities around their area
+* Map screen
+    * User can see the activities/places in a map
+    * User can choose the budget and get sorted activities
+* Event screen
+    * User can read about a specific activity
+* Favorites
+    * User's saved activities/places
+* Settings
+    * User can change settings
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home
+* Login
+* Register
+* Profile
+* Activity
+* Map
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Home
+   * Login
+   * Register
+* Login
+   * Profile
+* Register
+    * Sigup page
+    * Insterest form
+    * Profile 
+* Profile
+    * Map
+    * Settings
+    * Activity
+* Map
+    * Activity
+    * Profile
+* Settings
+    * Profile
+* Activity
+    * Map
+    * Profile
 
-## Wireframes
-<img src="wireframe.png" width=600>
+## Figma
 
+<img src="" width=600>
+<img src="" width=600>
+<img src="" width=600>
+<img src="" width=600>
+<img src="" width=600>
+<img src="" width=600>
+<img src="" width=600>
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
 
 ## Schema 
 [This section will be completed in Unit 9]
