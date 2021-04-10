@@ -95,7 +95,7 @@ Planning dates or activities can be hard, especially when you're on a budget, or
     * Map
     * Profile
 
-## Figma
+## Wireframes
 
 <img src="./wireframe.png" width=600>
 
