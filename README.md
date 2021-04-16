@@ -27,7 +27,7 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 * User can register for an account
 * User can log in
-* User can fill in/modefy the interest form
+* User can fill in/modify the interest form
 * User can pick a date
 * User can set a budget
 * User location
@@ -107,20 +107,35 @@ Planning dates or activities can be hard, especially when you're on a budget, or
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
+   | author        | Pointer to User| image authors feed |
+   | image         | File     | image that shows displays event |
+   | caption       | String   | image caption of the event |
+   | eventDate     | DateTime | date closest to current date and time|
   
    
 ### Networking
 #### List of network requests by screen
    - Register Screen
-      - (Read/GET) Query logged in user object
+      - (Read/GET) Query logged in user to the questionaire screen
    - Questionaire Screen
       - (Update/PUT) Update the users preferences
    - Login Screen
       - (Read/GET) Query logged in user to home feed
    - Home Feed Screen
       - (Read/GET) Fetch posts based on users preferences for the user's feed
+         ```swift
+         let query = PFQuery(className:"Post")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "eventDate")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
    - Content Screen
       - (Read/GET) Fetch a specific post for a user's feed
    - Saved Content Screen
