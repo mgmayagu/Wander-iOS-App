@@ -99,9 +99,6 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 <img src="./wireframe.png" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 ### Models
