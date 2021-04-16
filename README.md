@@ -113,27 +113,15 @@ Planning dates or activities can be hard, especially when you're on a budget, or
    
 ### Networking
 #### List of network requests by screen
-   - Home Feed Screen
-      - (Read/GET) Query all posts where user is author
-         ```swift
-         let query = PFQuery(className:"Post")
-         query.whereKey("author", equalTo: currentUser)
-         query.order(byDescending: "createdAt")
-         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-            if let error = error { 
-               print(error.localizedDescription)
-            } else if let posts = posts {
-               print("Successfully retrieved \(posts.count) posts.")
-           // TODO: Do something with posts...
-            }
-         }
-         ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
-   - Create Post Screen
-      - (Create/POST) Create a new post object
-   - Profile Screen
+   - Register Screen
       - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
+   - Questionaire Screen
+      - (Update/PUT) Update the users preferences
+   - Login Screen
+      - (Read/GET) Query logged in user to home feed
+   - Home Feed Screen
+      - (Read/GET) Fetch posts based on users preferences for the user's feed
+   - Content Screen
+      - (Read/GET) Fetch a specific post for a user's feed
+   - Saved Content Screen
+      - (Read/GET) Fetch a history of saved posts for a user's feed
