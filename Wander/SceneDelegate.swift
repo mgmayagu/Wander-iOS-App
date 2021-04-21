@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Wander
 //
-//  Created by Michael Mayaguari on 4/9/21.
+//  Created by Hope Dunner on 4/20/21.
 //
 
 import UIKit

@@ -2,10 +2,12 @@
 //  AppDelegate.swift
 //  Wander
 //
-//  Created by Michael Mayaguari on 4/9/21.
+//  Created by Hope Dunner on 4/20/21.
 //
 
 import UIKit
+import Parse
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let parseConfig = ParseClientConfiguration {
+                    $0.applicationId = "KESC42AdY01nraMNg4YTYMM0jhepbvP6OYISPyc9" // <- UPDATE
+                    $0.clientKey = "TIVSjOA8Tg53cEh7jyjZsT01sdmimSQAkfli5j5i" // <- UPDATE
+                    $0.server = "https://parseapi.back4app.com"
+            }
+            Parse.initialize(with: parseConfig)
         return true
     }
 
