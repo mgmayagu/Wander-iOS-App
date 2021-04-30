@@ -19,8 +19,7 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 - **Habit:** 
 - **Scope:** Wander is an application that aims to help people plan their activities around their city based on their interest and budget. The main goal is to help people get out from their comfort zone and discover places and activities around them. 
 
-### GIFs
-<img src='wander.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
+
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
