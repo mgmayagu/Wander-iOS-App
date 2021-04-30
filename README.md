@@ -24,7 +24,7 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 
 ### GIFs
-<img src='wander.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='wander.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
 
 ## Product Spec
 
