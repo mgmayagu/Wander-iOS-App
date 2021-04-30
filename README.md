@@ -32,8 +32,8 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 **Required Must-have Stories**
 
-* User can register for an account
-* User can log in
+* User can register for an account (Completed)
+* User can log in (Completed)
 * User can fill in/modify the interest form
 * User can pick a date
 * User can set a budget
@@ -49,13 +49,13 @@ Planning dates or activities can be hard, especially when you're on a budget, or
 
 ### 2. Screen Archetypes
 
-* Login/register Screen 
+* Login/register Screen (Completed)
    * User can choose to login or register for a new account
-* Register Screen
+* Register Screen (Completed)
    * User can create a new account
    * User fills in basic information
    * User fills in form about interest and activities they prefer
-* Home Profile Screen
+* Home Profile Screen (Completed)
     * User can read about activities around their area
 * Map screen
     * User can see the activities/places in a map
